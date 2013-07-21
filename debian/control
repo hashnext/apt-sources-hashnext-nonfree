@@ -1,0 +1,18 @@
+### Commented entries have reasonable defaults.
+### Uncomment to edit them.
+Source: apt-sources-hashnext-nonfree
+Section: non-free/misc
+Priority: optional
+Standards-Version: 3.9.2
+
+Package: apt-sources-hashnext-nonfree
+Version: 0.1
+Maintainer: Stuart Clark <stuart.clark@Jahingo.com>
+Depends: apt
+Architecture: all
+Copyright: COPYING
+#Changelog: CHANGES
+Readme: README.md
+Files: hashnext-nonfree.list /etc/apt/sources.list.d
+Description: Add hashnext sources to APT
+ Gives access to hashnext packages via APT
